@@ -1,4 +1,4 @@
-import {useTheme} from "./customHook";
+import { useTheme } from "./customHook";
 
 export const ThemeSwitcher = () => {
     const [theme, updateTheme] = useTheme();

@@ -1,11 +1,7 @@
-export const Text = ({name="nn", country="nn"}) => {
+export const Text = ({ name="Aleksa", country="Poland" }) => {
     return <>
-     <div>
-        <h1 className='first-h1' style={{backgroundColor: 'lightcoral', fontSize:24}}>Ovo je nesto</h1>
-        <h2 onClick={()=> console.log('Cao')} style={{fontStyle:'italic'}}>{name} a zemlja {country}</h2>
-        <p dangerouslySetInnerHTML={{__html:'<b>dangerous</b>'}}></p>  
-        {/* Dangereus se koristi u situacijama kada backend vrati HTML */}
-      </div>
-      </>
+        <h1 htmlFor="saf" className='first-h1' style={{ backgroundColor: "lightsalmon", fontSize: 48 }}>Cao DevLab React JS Ekipo! 2023</h1>
+        <h2>{name} <span>Miks</span> - <span style={{ fontStyle: "italic" }}>{country}</span></h2>
+        <p dangerouslySetInnerHTML={{ __html: "<b>Ponedeljak</b>" }}></p>
+        </>
 }
-

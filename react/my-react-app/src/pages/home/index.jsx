@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Card } from "../../components/Cadr";
+import { Card } from "../../components/Card";
 import { rickAndMortyService } from "../../service/rick-and-morty"
 
 const {getAllCharacters} = rickAndMortyService;

@@ -7,12 +7,12 @@ export const UsersPage = () => {
 
     useEffect(()=>{
         console.log("redirect to about");
-        navigate("/about");
+        navigate("/about")
     },[])
 
-return <>
-    <h1>User page</h1>
-    <p>User ID: {id}</p>
-</>
-
+    return <>
+        {/* <Navigate to="/" /> */}
+        <h1>Users page</h1>
+        <p>User ID: {id}</p>
+    </>
 }

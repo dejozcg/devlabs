@@ -1,6 +1,10 @@
+// export const AboutPage = () => {
+//     return <h1>About page</h1>
+// }
+
 import { useEffect, useState } from "react";
 import { rickAndMortyService } from "../../service/rick-and-morty";
-import { Card } from "../../components/Cadr";
+import { Card } from "../../components/Card"
 
 const {getAllLocations} = rickAndMortyService;
 
