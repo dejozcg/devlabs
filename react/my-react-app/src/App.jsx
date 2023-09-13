@@ -39,7 +39,7 @@ function App() {
           path: "about",
           children: [{
             index:true, element: <AboutPage />, exact:true
-          },{path: "team", element:<h1>Team page</h1>
+          },{path: "team", element:<h1>Team page</h1>, 
         }]
         },{path:"users/:id", element: <UsersPage />},
           {path:"*", element:<h1>404 Not Found</h1>}]
